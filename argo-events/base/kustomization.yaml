@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - rbac.yaml
-- https://github.com/argoproj/argo-events/tree/master/manifests/base
+- https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml
 #- event-bus.yaml
 namespace: argo-events
 
