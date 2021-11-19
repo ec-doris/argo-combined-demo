@@ -4,6 +4,6 @@ resources:
 - namespace.yaml
 #- rbac.yaml
 - https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml
-#- event-bus.yaml
+- event-bus.yaml
 namespace: argo-events
 
