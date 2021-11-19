@@ -4,6 +4,7 @@ resources:
 - namespace.yaml
 #- rbac.yaml
 - https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml
+- https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install-validating-webhook.yaml
 - event-bus.yaml
 namespace: argo-events
 
