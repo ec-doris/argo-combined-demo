@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
     kustomize:
       images:
-      - raphdom/argo-combined-app:latest
+      - raphdom/argo-combined-app:4ac73d51fc02e825f4c47a4bdc938af2af8e3b82
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
